@@ -21,7 +21,7 @@ menuIcon.addEventListener("click", function () {
 });
 
 
-// CLOSE MENU AFTER CLICKING A LINK
+// CLOSE MOBILE MENU AFTER CLICKING A LINK
 
 document.querySelectorAll(".nav-links a").forEach(function (link) {
 
@@ -79,9 +79,7 @@ function typeEffect() {
     } else if (deleting && characterIndex === 0) {
 
         deleting = false;
-
         roleIndex = (roleIndex + 1) % roles.length;
-
         speed = 400;
 
     }
@@ -106,7 +104,7 @@ const profileImage = document.querySelector(".profile-image");
 profileImage.addEventListener("error", function () {
 
     console.error(
-        "Profile image not found. Check assets/profile.png"
+        "Profile image not found. Check profile.png"
     );
 
 });

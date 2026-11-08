@@ -39,7 +39,6 @@ section {
     padding: 100px 9%;
 }
 
-
 /* NAVIGATION */
 
 header {
@@ -72,7 +71,7 @@ header {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 22px;
+    gap: 18px;
 }
 
 .nav-links a {
@@ -104,7 +103,6 @@ header {
     font-size: 23px;
     cursor: pointer;
 }
-
 
 /* HOME */
 
@@ -213,7 +211,6 @@ header {
     transform: translateY(-4px);
 }
 
-
 /* PROFILE PHOTO */
 
 .home-image {
@@ -261,7 +258,6 @@ header {
     margin-right: 7px;
 }
 
-
 /* SECTION HEADINGS */
 
 .section-heading {
@@ -273,7 +269,6 @@ header {
     font-size: 36px;
     margin-top: 10px;
 }
-
 
 /* ABOUT */
 
@@ -340,7 +335,6 @@ header {
     color: var(--muted);
 }
 
-
 /* SKILLS */
 
 .skills-grid {
@@ -378,7 +372,6 @@ header {
     color: var(--muted);
     font-size: 13px;
 }
-
 
 /* PROJECTS */
 
@@ -458,7 +451,6 @@ header {
     color: white;
 }
 
-
 /* CERTIFICATIONS */
 
 .certifications-section {
@@ -531,7 +523,6 @@ header {
     color: white;
 }
 
-
 /* EXPERIENCE */
 
 .timeline {
@@ -586,7 +577,6 @@ header {
     font-size: 13px;
 }
 
-
 /* EDUCATION */
 
 .education-card {
@@ -623,7 +613,6 @@ header {
     color: var(--muted);
     font-size: 13px;
 }
-
 
 /* CONTACT */
 
@@ -673,7 +662,6 @@ header {
     overflow-wrap: anywhere;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -693,7 +681,6 @@ footer p {
     font-size: 11px;
 }
 
-
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 1050px) {
@@ -703,7 +690,7 @@ footer p {
     }
 
     .nav-links {
-        gap: 13px;
+        gap: 12px;
     }
 
     .section {
@@ -718,7 +705,6 @@ footer p {
         width: 280px;
         height: 350px;
     }
-
 }
 
 @media (max-width: 850px) {
@@ -776,7 +762,6 @@ footer p {
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 @media (max-width: 600px) {
@@ -825,5 +810,4 @@ footer p {
     .education-card h3 {
         font-size: 15px;
     }
-
 }
